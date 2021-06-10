@@ -31,10 +31,31 @@
     padding: 0px;
     margin: 0px;
 }
+div span {
+    font-size: 80px;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: auto;
+    width: 100px;
+}
 
-form {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-
+#G {
+    color: rgba(13, 109, 253, 0.8);
+}
+#O {
+    color: rgba(255, 0, 0, 0.8);
+}
+#o {
+   color:rgba(255, 200,0,0.8); 
+}
+#g {
+    color: rgba(13, 109, 253, 0.8);
+}
+#L {
+    color: rgba(34, 139, 34, 0.8);
+}
+#E {
+    color: rgba(255, 0, 0, 0.8);
 }
