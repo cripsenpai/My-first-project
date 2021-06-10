@@ -32,8 +32,24 @@
   margin: 0px;
 }
 
+section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 div span {
   font-size: 80px;
+  font-family: "Google Sans";
   font-weight: 500;
   top: 50%;
   left: 50%;
@@ -65,5 +81,14 @@ div span {
 
 #E {
   color: rgba(255, 0, 0, 0.8);
+}
+
+.search-box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
