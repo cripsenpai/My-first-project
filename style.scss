@@ -1,13 +1,17 @@
 * {
     font-family: Google Sans;
+    margin: 0;
+    padding:0;
+
 }
+
 img {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 299;
-    height: 140;
-    top:7em;
+    width: 300px;
+    height: auto;
+    top:11em;
     left: 7em;
     display:block;
 }
@@ -18,40 +22,59 @@ ul li {
 
 ul li a {
     float: right;
-    margin: 5px;
+    margin: 3.5px;
+    padding: 12px;
     color: black;
     text-decoration: none;
     font-size: 15px;
     font-family: Google Sans;
 }
-#box{
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.box{
     position: relative;
     display: block;
     border: 0.5px solid rgba(0,0,0,0.2);
     border-radius:1.8em;
     padding: 1em;
     width: 37%;
+    margin: 20px;
     margin-right: auto;
     margin-left: auto;
-    top: 8em;
+    top: 13em;
 }
-#box:focus {
+.box:focus {
     outline: none;
 }
+.box:hover {
+    box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329) ;
+}
 
-.btn {
+.button {
     position: relative;
     display: inline-block;
-    background-color: adjust-color($color: #94949434, $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
     border: none !important;
-    padding: 10px;
-    margin: 10px;
+    border-radius:5px;
+    background-color: rgba(138, 138, 138, 0.048);
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 2em;
     margin-right: auto;
     margin-left: auto;
-    top: 9em;
+    top: 11em;
     left: 42%;
 }
 
-.btn:hover {
-    border: 1px solid black;
+.button:hover {
+    box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329) ;
+    background-color: rgba(138, 138, 138, 0.096);
+}
+
+@media screen and (max-width:736px){
+    .box {
+        width: 30%;
+    }
 }
