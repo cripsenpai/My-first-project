@@ -5,11 +5,10 @@
 }
 
 img {
-  position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
-  height: auto;
+  width: 272px;
+  height: 92px;
   top: 11em;
   left: 7em;
   display: block;
@@ -34,29 +33,29 @@ ul li a:hover {
   text-decoration: underline;
 }
 
-.box {
+input[type="text"] {
   position: relative;
   display: block;
   border: 0.5px solid rgba(0, 0, 0, 0.2);
   border-radius: 1.8em;
   padding: 1em;
-  width: 37%;
+  min-width: 36%;
   margin: 20px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
   top: 13em;
 }
 
-.box:focus {
+input[type="text"]:focus {
   outline: none;
 }
 
-.box:hover {
+input[type="text"]:hover {
   -webkit-box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329);
           box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329);
 }
 
-.button {
+button[type="submit"] {
   position: relative;
   display: inline-block;
   border: none !important;
@@ -68,19 +67,160 @@ ul li a:hover {
   margin: 2em;
   margin-right: auto;
   margin-left: auto;
-  top: 11em;
-  left: 42%;
+  top: 10em;
+  left: 41%;
 }
 
-.button:hover {
+button:hover {
   -webkit-box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329);
           box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329);
   background-color: rgba(138, 138, 138, 0.096);
 }
 
-@media screen and (max-width: 736px) {
-  .box {
-    width: 30%;
+input[type="submit"] {
+  position: relative;
+  display: inline-block;
+  border: none !important;
+  border-radius: 5px;
+  background-color: rgba(138, 138, 138, 0.048);
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  top: 10em;
+  left: 42%;
+}
+
+input[type="submit"]:hover {
+  -webkit-box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329);
+          box-shadow: 0 0 0 1pt rgba(138, 138, 138, 0.329);
+  background-color: rgba(138, 138, 138, 0.096);
+}
+
+@media screen and (width: 1024px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 768px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 736px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 414px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 667px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 375px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 684px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 412px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 734px) {
+  input[type="text"] {
+    width: 50%;
+  }
+  button[type="submit"] {
+    left: 36%;
+  }
+  input[type="submit"] {
+    left: 37%;
+  }
+}
+
+@media screen and (width: 357px) {
+  img {
+    width: 272px;
+    top: 11em;
+    left: 100px;
+  }
+  input[type="text"] {
+    width: 60%;
+  }
+  button[type="submit"] {
+    left: 30%;
+  }
+  input[type="submit"] {
+    left: 37%;
   }
 }
 /*# sourceMappingURL=style.css.map */
