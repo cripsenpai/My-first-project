@@ -83,13 +83,13 @@ form {
 #kjko {
 	justify-content: center;
 	align-self: center;
+	padding-top: 15px;
 }
 input#search {
 	justify-content: center;
 	align-self: center;
-	width:100%;
-	height:2.75em;
-	min-height:2.75em;
+	min-width: 300px;
+	margin: auto;
 	padding:0.3125em 0.5em 0em 0.875em;
 	border: 0.5px solid rgba(0, 0, 0, 0.2);
   	border-radius: 1.8em;
@@ -101,27 +101,27 @@ input#search {
 #search:focus {
 	outline: none;
 }
-.idnf {
+#idnf {
 	justify-content: center;
 	align-self: center;
-	color: #222222;
-	padding-top:1.125em;
-	width:36.5em;
-	height:3.625em;
+	padding-top: 15px;
 }
 .center {
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 	align-content: space-between;
-	color: #222222;
-	width:36.5em;
-	height:3.625em;
+	padding-top: 20px;
+	max-width:511px;
+	min-width:500px;
+	margin:auto;
+	height:4em;
 
 }
 #lksdf {
 	border: none !important;
   	border-radius: 5px;
   	background-color: rgba(138, 138, 138, 0.048);
+	color: rgba(0, 0, 0, 0.8);
 	margin: 11px 4px;
 	padding: 0px 16px;  
 	width:127px;
@@ -138,6 +138,7 @@ input#search {
 	border: none !important;
   	border-radius: 5px;
   	background-color: rgba(138, 138, 138, 0.048);
+	color: rgba(0, 0, 0, 0.8);
 	margin:11px 4px;
 	padding:0px 16px;
 	width: 140px;
@@ -152,28 +153,17 @@ input#search {
 .sojdf {
 	text-align: center;
 	width: 100%;
-	height: 331px;
+	height: 10000px;
 }
 @media screen and (max-width:736px){
 	.image-box {
 		height: 100px;
 	}
 }
-@media screen and (width:768px){
-	.image-box {
-		height: 300px;
-	}
-}
+
 @media screen and (orientation:Portrait){
-	.form {
-		width:fit-content;
-	}
 	.image-box {
-		height: 150px;
-	}
-	.ab {
-	margin:0em 18.15625em;
-	padding:0.375em 0em 0em;
+		height: 199px;
 	}
 }
 
