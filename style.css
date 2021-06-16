@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font: 14px arial,sans-serif;
+  font: 14px arial, sans-serif;
 }
 
 body {
@@ -66,11 +66,32 @@ body {
 }
 
 .image {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
-  height: 100%;
-  margin-top: 6.6em;
-  max-height: 5.75em;
-  display: inline-block;
+  text-align: center;
+  max-height: 92px;
+  width: 100%;
+}
+
+.bottom-left {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: absolute;
+  left: 55%;
+  bottom: 1px;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+img {
+  max-width: 272px;
+  margin: auto;
+  z-index: 1;
 }
 
 .form {
