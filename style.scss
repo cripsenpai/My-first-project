@@ -73,15 +73,6 @@ body {
 	max-height: 92px;
 	width: 100%;
 }
-.bottom-left {
-	color: #4285f4;
-    font: 16px/16px roboto-regular, arial, sans-serif;
-    position: absolute;
-    left: 55%;
-    bottom:1px;
-    white-space: nowrap;
-	z-index: 2;
-}
 
 img {
 	max-width: 272px;
@@ -146,6 +137,7 @@ form {
 }
 .box > input {
 	border: none !important;
+	outline: none;
 	flex: 1;
 	height: 30px;
 	padding-left: 10px;
