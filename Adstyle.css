@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+body {
+	overflow: none;
+}
+.rel {
+	position: relative;
+}
+.wid {
+	height: 41px;
+	width: 184px;
+}
+.sidn {
+	display: flexbox;
+}
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.logo {
+	align-items: center;
+	padding-left: 20px;
+	max-width: 100%;
+	height: 48px;
+}
+.header {
+	align-items: center;
+	max-width: 100%;
+	margin: 25px 30px;
+	height: 23px;
+}
+.header > label {
+	color: #d93025;
+	font-size: 20px;
+	margin-left: 10px;
+}
+hr {
+	border-color: rgba(51, 49, 49, 0.089);
+}
+.form {
+	justify-content: flex-start;
+    height: 100vh;
+}
+
+form {
+    position: relative;
+	max-width: 1140px;
+	top: 40px;
+	left: 40px;
+}
+.label {
+	height: 41px;
+}
+#suadb {
+	width: 184px;
+}
+#sdnu {
+	width: 570px;
+	height: 41px;
+}
+#asiu {
+	display: flex;
+	align-items: center;
+	width: 174px;
+	font-size: 13px;
+	color: #777777;
+}
+.uihs {
+	height: 41px;
+    align-items: center;
+}
+.uihs>label {
+    height: 41px;
+}
+.sod {
+    align-items: center;
+	height: 41px;
+}
+.fds {
+    align-items: center;
+	height: 41px;
+}
+.uihs {
+    align-items: center;
+	height: 41px;
+}
